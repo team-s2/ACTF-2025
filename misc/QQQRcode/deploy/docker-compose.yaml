@@ -1,0 +1,7 @@
+version: '3'
+services:
+  test:
+    build: .
+    ports:
+      - 9999:9999
+    restart: unless-stopped
