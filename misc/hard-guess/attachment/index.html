@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Megumi Kato | Profile</title>
+    <style>
+        :root {
+            --primary: #ff6b9d;
+            --secondary: #6bd9ff;
+        }
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            background: linear-gradient(135deg, #f5f7fa 0%, #f8f9fa 100%);
+            color: #333;
+            margin: 0;
+            padding: 0;
+            min-height: 100vh;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+        .profile-card {
+            background: white;
+            border-radius: 16px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+            overflow: hidden;
+            position: relative;
+        }
+        .profile-header {
+            background: linear-gradient(45deg, var(--primary), var(--secondary));
+            color: white;
+            padding: 2rem;
+            text-align: center;
+        }
+        .profile-pic {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            border: 4px solid white;
+            margin: 0 auto;
+            background: url('https://img.moegirl.org.cn/common/d/dc/%E8%B7%AF%E4%BA%BA%E5%A5%B3%E4%B8%BB%E7%9A%84%E5%85%BB%E6%88%90%E6%96%B9%E6%B3%95_%E8%A7%92%E8%89%B2%E6%AD%8CCD1.jpg') center/cover;
+        }
+        h1 {
+            margin: 1rem 0 0;
+            font-weight: 600;
+        }
+        .subtitle {
+            opacity: 0.9;
+            font-weight: 300;
+        }
+        .profile-body {
+            padding: 2rem;
+        }
+        .info-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 1.5rem;
+        }
+        .info-item {
+            margin-bottom: 1rem;
+        }
+        .info-label {
+            font-size: 0.9rem;
+            color: #666;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 0.3rem;
+        }
+        .info-value {
+            font-size: 1.1rem;
+            font-weight: 500;
+        }
+        .issues-section {
+            margin-top: 2rem;
+            padding: 1.5rem;
+            background-color: #f8f9fa;
+            border-radius: 8px;
+            border-left: 4px solid var(--primary);
+        }
+        .issues-title {
+            color: var(--primary);
+            margin-bottom: 0.5rem;
+        }
+        .issues-meta {
+            font-size: 0.8rem;
+            color: #666;
+            margin-bottom: 0.5rem;
+        }
+        footer {
+            text-align: center;
+            margin-top: 2rem;
+            color: #999;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="profile-card">
+            <div class="profile-header">
+                <div class="profile-pic"></div>
+                <h1>Megumi Kato</h1>
+                <div class="subtitle">Game Developer at Blessing Software</div>
+            </div>
+            
+            <div class="profile-body">
+                <div class="info-grid">
+                    <div class="info-item">
+                        <div class="info-label">Full Name</div>
+                        <div class="info-value">Megumi Kato</div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-label">Birth Date</div>
+                        <div class="info-value">September 23, 1996</div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-label">Hometown</div>
+                        <div class="info-value">Tokyo, Japan</div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-label">Company</div>
+                        <div class="info-value">Blessing Software</div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-label">Favorite Game</div>
+                        <div class="info-value">Cherry Blessing</div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-label">Favorite Song</div>
+                        <div class="info-value">M♭</div>
+                    </div>
+                </div>
+                
+                <h3>About Me</h3>
+                <p>
+                    I'm currently working as a programmer at Blessing Software, developing visual novels with Tomoya-kun. 
+                    Recently I've been learning about server administration - please don't tell Tomoya-kun I accidentally 
+                    locked myself out of the VPS twice last week...
+                </p>
+
+                <div class="issues-section">
+                    <h4 class="issues-title">Security Notice from Aki Tomoya</h4>
+                    <div class="issues-meta">Posted 2 days ago | Label: security | Unread </div>
+                    <p>
+                        Megumi-san, please remember:
+                        <br>
+                        1. Don't set SSH username as "KatoMegumi" (it's too predictable!).
+                        <br>
+                        2. Don't use name+birthday combinations for passwords, like "Megumi19960923" or ... I guess.
+                        <br>
+                        3. The server logs show someone tried brute-forcing your ssh yesterday!
+                    </p>
+                </div>
+            </div>
+        </div>
+        
+        <footer>
+            &copy; 2025 Blessing Software. All rights reserved.
+        </footer>
+    </div>
+</body>
+</html>
