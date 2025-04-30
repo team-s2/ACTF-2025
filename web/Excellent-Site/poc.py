@@ -7,6 +7,16 @@
 # 可以构造SMTP Smuggling，伪造发信人为`admin@ezmail.org` 。
 # 同时注意到`news`页面存在SQLI。考虑将SSTI Payload用UNION的方式塞到页面里再由`/admin` 读取即可。
 
+# The main focus is on SMTP Smuggling.
+# It is noticed that the render_template_string() method is used to concatenate and render under /admin, which could allow for SSTI (Server-Side Template Injection).
+# The controllable part comes from the email in the local inbox from admin@ezmail.org, where the URL in the Subject points to a local page's content.
+# Although emails can be sent from /report, the sender is fixed as ignored@ezmail.org.
+# Upon carefully reviewing the code under /report, it is found that email sending also involves concatenation.
+# (To make it easier to construct the question, I specifically modified smtplib._quote_periods.)
+# SMTP Smuggling can be constructed to forge the sender as admin@ezmail.org.
+# Additionally, it is observed that the news page is vulnerable to SQL Injection (SQLi).
+# Consider injecting the SSTI Payload via UNION into the page, which can then be read by /admin.
+
 import requests
 
 cookies = {
