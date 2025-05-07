@@ -11,7 +11,7 @@ QEMU版本为8.2，并且加载了两个设备，一个virtio-blk和一个readfl
 
 通过分析可知是需要一个信息泄漏漏洞将内存中的flag读出来。将virtio-blk，info leak，DMA等关键词进行搜索可以发现CVE-2024-8612
 
-![image.png](https://img.picui.cn/free/2025/05/06/6819f8fc27ecf.png)
+![image](https://s1.imagehub.cc/images/2025/05/07/5eae8e161a80b205cb1a8f353531e531.png)
 
 ## 漏洞
 
