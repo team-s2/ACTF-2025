@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "dompurify": "^3.2.3",
+    "ejs": "^3.1.10",
+    "express": "^4.21.2",
+    "express-session": "^1.18.1",
+    "jsdom": "^26.0.0",
+    "puppeteer": "^24.1.1"
+  }
+}
