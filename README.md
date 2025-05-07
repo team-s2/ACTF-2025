@@ -4,7 +4,7 @@ Archive of AAA CTF 2025 (XCTF competition)
 
 ACTF 2025 is a Jeopardy-style Online Capture The Flag Competition presented by Team AAA. The contest is open to all participants around the world. Teams can compete from any location. No restriction on the number of participants of any team.
 
-The Champion Team of ACTF 2025 will be invited to The Finals of the 9th Edition of XCTF(the location/date is subject to change, qualified teams will be informed when the Finals location/date is confirmed). Other teams can also get the cumulative points to compete for other slots in The Finals of the 9th Edition of XCTF.
+The Champion Team of ACTF 2025 will be invited to The Finals of the 9th Edition of XCTF(the location/date is subject to change, qualified teams will be informed when the Finals location/date is confirmed). Other teams can also get the cumulative points to compete for other slots in The Finals of the 9th Edition of XCTF
 
 - Date: Sat, 26 April 2025, 01:00 UTC — Sun, 27 April 2025, 01:00 UTC
 - Format: Online Jeopardy
