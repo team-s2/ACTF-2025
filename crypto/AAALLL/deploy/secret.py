@@ -1,0 +1,1 @@
+flag = b"ACTF{Pat141_V4nd3rrrrrm0000nd333_Pr000bl333m}"

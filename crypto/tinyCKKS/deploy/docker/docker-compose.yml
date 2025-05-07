@@ -1,0 +1,10 @@
+version: '3'
+services:
+  test:
+    # image: test
+    build: ../
+    environment:
+      FLAG: "ACTF{CcccckKkKkKkkKKsSSsS_CP4_s3cur1ty_14_1mp0rt4nt}"
+    ports:
+      - 9999:9999
+    restart: unless-stopped
